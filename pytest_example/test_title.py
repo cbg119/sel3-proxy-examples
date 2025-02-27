@@ -9,7 +9,7 @@ def test_title():
         "browserVersion": "latest",
         "platformName": "Windows 11",
         "sauce:options": {
-            "name": "Pytest Base Test",
+            "name": "Pytest Proxy Test",
             "username": os.environ["SAUCE_USERNAME"],
             "accessKey": os.environ["SAUCE_ACCESS_KEY"]
         }
